@@ -1,0 +1,45 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .lattice { fill: none; stroke: #bcbd7f; stroke-width: 1.2; stroke-opacity: 0.35; }
+      .diamond { fill: #f2f6e9; fill-opacity: 0.45; }
+      .leaf { fill: #bcbd7f; fill-opacity: 0.28; }
+      .leaf-light { fill: #ffffff; fill-opacity: 0.5; }
+    </style>
+  </defs>
+
+  <!-- Diamond Lattice Background -->
+  <polygon points="60,0 120,60 60,120 0,60" class="diamond" />
+  <polygon points="0,0 60,0 0,60" class="diamond" />
+  <polygon points="120,0 60,0 120,60" class="diamond" />
+  <polygon points="0,120 60,120 0,60" class="diamond" />
+  <polygon points="120,120 60,120 120,60" class="diamond" />
+
+  <!-- Trellis Lattice Lines -->
+  <path d="M0,60 Q30,45 60,0 Q90,45 120,60 Q90,75 60,120 Q30,75 0,60 Z" class="lattice" />
+  <path d="M60,0 Q90,15 120,60" class="lattice" />
+  <path d="M0,60 Q30,15 60,0" class="lattice" />
+  <path d="M0,60 Q30,105 60,120" class="lattice" />
+  <path d="M60,120 Q90,105 120,60" class="lattice" />
+
+  <!-- Subtle Botanical Leaf Sprigs in Center Diamond -->
+  <g transform="translate(60, 60) rotate(-25) scale(0.65)">
+    <path d="M -15,15 Q 0,0 18,-15" stroke="#bcbd7f" stroke-width="1.2" stroke-opacity="0.3" fill="none" />
+    <path d="M 18,-15 C 24,-24 30,-22 28,-14 C 26,-8 20,-12 18,-15 Z" class="leaf" />
+    <path d="M 18,-15 C 22,-22 27,-20 25,-14 C 23,-9 19,-13 18,-15 Z" class="leaf-light" />
+    <path d="M 6,-5 C 12,-12 18,-10 16,-4 C 14,0 8,-3 6,-5 Z" class="leaf" />
+    <path d="M 6,-5 C 0,-10 -2,-16 4,-14 C 8,-12 8,-7 6,-5 Z" class="leaf-light" />
+    <path d="M -6,5 C 0,-2 6,0 4,6 C 2,10 -4,7 -6,5 Z" class="leaf" />
+    <path d="M -6,5 C -12,0 -14,-6 -8,-4 C -4,-2 -4,3 -6,5 Z" class="leaf-light" />
+  </g>
+
+  <!-- Botanical Leaf Sprigs at Corners -->
+  <g transform="translate(0, 0) rotate(35) scale(0.5)">
+    <path d="M -15,15 Q 0,0 18,-15" stroke="#bcbd7f" stroke-width="1.2" stroke-opacity="0.25" fill="none" />
+    <path d="M 18,-15 C 24,-24 30,-22 28,-14 C 26,-8 20,-12 18,-15 Z" class="leaf" />
+  </g>
+  <g transform="translate(120, 120) rotate(35) scale(0.5)">
+    <path d="M -15,15 Q 0,0 18,-15" stroke="#bcbd7f" stroke-width="1.2" stroke-opacity="0.25" fill="none" />
+    <path d="M 18,-15 C 24,-24 30,-22 28,-14 C 26,-8 20,-12 18,-15 Z" class="leaf" />
+  </g>
+</svg>
