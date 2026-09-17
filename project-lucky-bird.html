@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Bird Game Design — Case Study | Tessa Wolvekamp</title>
+  <meta name="description" content="Case study of Lucky Bird 2D arcade game, pixel art character design, and sprite animation by Tessa Wolvekamp, CMD student at Avans Hogeschool.">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-pattern-subtle">
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Tessa Wolvekamp Portfolio Home">
+        <div class="brand-logo-wrap">
+          <img src="images/logo.png" alt="Tessa Wolvekamp Floral Monogram" class="brand-logo-img">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Tessa Wolvekamp</span>
+          <span class="brand-title">CMD • Avans</span>
+        </div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="about.html" class="nav-link">About me</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="wasd-mode-toggle" class="btn btn-mode-toggle btn-sm" aria-label="Toggle navigation mode between mouse and WASD keys" aria-pressed="false" title="Switch between Mouse and WASD keyboard navigation">
+          <span class="mode-icon">🖱️</span>
+          <span class="mode-text">Mouse Mode</span>
+          <span class="mode-hint-tag">Try WASD ✦</span>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- CASE STUDY HERO -->
+    <section class="case-hero">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="projects.html">Projects</a>
+          <span>/</span>
+          <span style="color: var(--color-primary-green); font-weight: 600;">Lucky Bird</span>
+        </nav>
+
+        <div class="case-header-grid">
+          <div>
+            <span class="section-tag">Game Design & Pixel Art Case Study</span>
+            <h1 style="margin-bottom: 1rem;">Lucky Bird — 2D Arcade Game</h1>
+            <p class="section-description" style="font-size: 1.2rem;">
+              A vibrant retro arcade experience featuring custom character design, frame-by-frame pixel sprite animation, and obstacle-dodging gameplay mechanics.
+            </p>
+          </div>
+
+          <!-- Project Meta Sidebar Card -->
+          <div class="case-meta-box flourish-frame">
+            <img src="images/vectors/corner-left.svg" alt="" class="flourish-corner flourish-corner-tl" aria-hidden="true">
+            <img src="images/vectors/corner-right.svg" alt="" class="flourish-corner flourish-corner-tr" aria-hidden="true">
+            <img src="images/vectors/corner-left.svg" alt="" class="flourish-corner flourish-corner-bl" aria-hidden="true">
+            <img src="images/vectors/corner-right.svg" alt="" class="flourish-corner flourish-corner-br" aria-hidden="true">
+
+            <div class="case-meta-item">
+              <div class="case-meta-label">Role</div>
+              <div class="case-meta-value">Game Designer & Pixel Artist</div>
+            </div>
+            <div class="case-meta-item">
+              <div class="case-meta-label">Context</div>
+              <div class="case-meta-value">Avans CMD Game Prototyping</div>
+            </div>
+            <div class="case-meta-item">
+              <div class="case-meta-label">Tools Used</div>
+              <div class="case-meta-value">Aseprite, Photoshop, Game Prototyping</div>
+            </div>
+            <div class="case-meta-item">
+              <div class="case-meta-label">Year</div>
+              <div class="case-meta-value">2026</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Gameplay Image -->
+        <div class="case-main-image reveal">
+          <img src="images/project 2 - lucky bird/Screenshot 2026-08-31 114458.png" alt="Lucky Bird Action Gameplay Screen" class="gallery-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDY NARRATIVE CONTENT -->
+    <section class="section">
+      <div class="container container-narrow">
+
+        <!-- 01 Concept & Gameplay -->
+        <div class="case-story-block reveal" style="margin-bottom: 3.5rem;">
+          <span class="section-tag">01 / Concept & Gameplay</span>
+          <h2 style="margin-bottom: 1.2rem;">Navigating a World of Reaching Hands</h2>
+          <p class="case-body-text">
+            <strong>Lucky Bird</strong> is a fast-paced 2D arcade game built around the quirky humor of being a beloved pet bird. The player navigates an agile flying bird through a narrow domestic hallway, dodging human hands that constantly reach down and up attempting to grab or pet the bird.
+          </p>
+          <p class="case-body-text">
+            To survive and increase their score, the player must swoop past grasping fingers to collect tasty seed clusters and millet sprays scattered across the flight path.
+          </p>
+        </div>
+
+        <!-- 02 Character Roster -->
+        <div class="case-story-block reveal" style="margin-bottom: 3.5rem;">
+          <span class="section-tag tag-pink">02 / Character Roster & Silhouette Design</span>
+          <h2 style="margin-bottom: 1.2rem;">Four Playable Avian Personalities</h2>
+          <p class="case-body-text">
+            To give players personal expression and replay value, I illustrated four distinct bird species with unique pixel color palettes and distinctive silhouettes:
+          </p>
+          <ul style="color: var(--color-text-muted); line-height: 1.8; margin: 1.5rem 0;">
+            <li><strong>Blue & Gold Macaw:</strong> Rich azure plumage with vibrant yellow chest feathers.</li>
+            <li><strong>Peach-faced Lovebird:</strong> Lively lime green body with warm coral-peach facial plumage.</li>
+            <li><strong>Blue-footed Booby:</strong> Quirky cream and mocha body with signature bright cyan feet.</li>
+            <li><strong>Scarlet Macaw:</strong> Fiery crimson body accented with primary yellow and cobalt wingtips.</li>
+          </ul>
+
+          <!-- Character Lineup Image -->
+          <div class="gallery-item" style="margin: 2rem 0;">
+            <img src="images/project 2 - lucky bird/Screenshot 2026-07-09 195551.png" alt="Lucky Bird Character Lineup and Roster" class="gallery-img" loading="lazy" style="image-rendering: pixelated;">
+            <div class="gallery-caption">
+              <strong>Avian Roster Lineup:</strong> Character selection screen showcasing the four pixel-art bird species alongside the seed cluster reward and obstacle hand asset.
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 Interactive Sprite Sheet & Animation -->
+        <div class="case-story-block reveal" style="margin-bottom: 3.5rem;">
+          <span class="section-tag">03 / Interactive Sprite Animation</span>
+          <h2 style="margin-bottom: 1.2rem;">8-Frame Flight Cycle in Action</h2>
+          <p class="case-body-text">
+            Every movement in <em>Lucky Bird</em> was created pixel-by-pixel. The flight cycle uses 8 discrete frames to communicate upward flap lift, wing extension, glide momentum, and aerodynamic tuck.
+          </p>
+
+          <!-- INTERACTIVE SPRITE VIEWER COMPONENT -->
+          <div class="sprite-viewer-wrap">
+            <div style="font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-secondary-green); font-weight: 700; margin-bottom: 1rem;">
+              Interactive Flight Player
+            </div>
+            
+            <div class="sprite-canvas-container">
+              <div id="lucky-bird-sprite" class="sprite-animated-box" title="Lucky Bird Animated Flight Sprite"></div>
+            </div>
+
+            <div id="sprite-frame-display" style="font-family: monospace; font-size: 0.95rem; margin-bottom: 1.2rem; color: #ffffff;">
+              Frame 1 / 8
+            </div>
+
+            <div class="sprite-controls">
+              <button type="button" id="sprite-play-btn" class="btn btn-2 btn-sm">Pause Animation</button>
+              <button type="button" id="sprite-step-btn" class="btn btn-2-secondary btn-sm" style="color: #ffffff; border-color: rgba(255,255,255,0.4);">Next Frame</button>
+              <button type="button" id="sprite-speed-btn" class="btn btn-2-secondary btn-sm" style="color: #ffffff; border-color: rgba(255,255,255,0.4);">Speed: Normal</button>
+            </div>
+          </div>
+
+          <!-- Static Sprite Sheet Image -->
+          <div class="gallery-item" style="margin: 2rem 0;">
+            <img src="images/project 2 - lucky bird/Screenshot 2026-07-09 195831.png" alt="8-Frame Flight Cycle Sprite Sheet" class="gallery-img" loading="lazy" style="image-rendering: pixelated;">
+            <div class="gallery-caption">
+              <strong>Source Sprite Sheet:</strong> The 8 individual animation frames illustrating the complete wing flap and glide cycle.
+            </div>
+          </div>
+        </div>
+
+        <!-- 04 Reflection & Outcomes -->
+        <div class="case-story-block reveal" style="margin-bottom: 3.5rem; background: var(--color-bg-surface); border: 1px solid var(--color-border); border-radius: 20px; padding: 2.5rem;">
+          <span class="section-tag tag-pink">04 / Reflection & Learning</span>
+          <h2 style="margin-bottom: 1.2rem;">Key Takeaways</h2>
+          <ul style="color: var(--color-text-muted); line-height: 1.8; font-size: 1.05rem;">
+            <li><strong>Pixel Consistency:</strong> Maintaining a strict pixel scale (consistent texel size across characters, obstacles, and backgrounds) prevents visual clashing and preserves classic 16-bit aesthetic purity.</li>
+            <li><strong>Readability Under Motion:</strong> Because the bird travels at variable speeds, high-contrast color zones (e.g. coral face on lime body) allow players to track their avatar instinctively without losing focus.</li>
+            <li><strong>Anticipation in Micro-Animations:</strong> Adding slight ease-in and anticipation to wing flapping creates a satisfying feeling of weight and buoyancy in flight physics.</li>
+          </ul>
+        </div>
+
+        <!-- PROJECT PAGINATION / SWITCHER -->
+        <nav class="case-pagination" aria-label="Case Study Navigation">
+          <a href="project-tessora.html" class="case-pagination-link">
+            <span class="case-pagination-label">← Previous Project</span>
+            <span class="case-pagination-title">Tessora Can & Campaign</span>
+          </a>
+          <a href="project-geforceerd-groen.html" class="case-pagination-link" style="text-align: right;">
+            <span class="case-pagination-label">Next Project →</span>
+            <span class="case-pagination-title">Geforceerd Groen</span>
+          </a>
+        </nav>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <div class="brand-logo-wrap">
+              <img src="images/logo.png" alt="Tessa Wolvekamp Logo" class="brand-logo-img">
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">Tessa Wolvekamp</span>
+              <span class="brand-title">CMD • Avans Hogeschool</span>
+            </div>
+          </a>
+          <p>
+            Personal design portfolio of Tessa Wolvekamp. Second-year Communication & Multimedia Design student in the Netherlands.
+          </p>
+          <p style="font-style: italic; color: var(--color-primary-pink); font-size: 0.95rem; margin-top: 0.5rem;">
+            “More than meets the eye.”
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Featured Work</h4>
+          <ul class="footer-links">
+            <li><a href="project-tessora.html">Tessora Can & Campaign</a></li>
+            <li><a href="project-lucky-bird.html">Lucky Bird Arcade Game</a></li>
+            <li><a href="project-geforceerd-groen.html">Geforceerd Groen Intervention</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Tessa Wolvekamp • Built with custom Design System & Typography</span>
+        <button class="back-to-top" aria-label="Back to top of page">
+          Back to Top ↑
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+  <!-- PLAYABLE STORY JOURNEY MODAL ("The Discovery Lens") -->
+  
+
+
+  <div id="custom-cursor" class="custom-cursor" aria-hidden="true"></div>
+  <div id="wasd-hud" class="wasd-hud" aria-hidden="true">
+    <span><strong>W A S D</strong> to Move</span> • <span><strong>SPACE</strong> to Click</span> • <span><strong>[ESC]</strong> for Mouse</span>
+  </div>
+
+</body>
+</html>

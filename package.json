@@ -1,0 +1,16 @@
+{
+  "name": "tessa-wolvekamp-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Tessa Wolvekamp - CMD Avans Hogeschool",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "cmd",
+    "avans",
+    "design-system"
+  ],
+  "author": "Tessa Wolvekamp",
+  "license": "ISC"
+}

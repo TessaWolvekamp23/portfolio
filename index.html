@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tessa Wolvekamp — More than meets the eye | CMD Portfolio</title>
+  <meta name="description" content="Portfolio of Tessa Wolvekamp, 18-year-old Communication & Multimedia Design (CMD) student at Avans University of Applied Sciences. Exploring immersive storytelling across brand packaging, playable arcade games, and civic spatial concepts.">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-pattern-subtle">
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Tessa Wolvekamp Portfolio Home">
+        <div class="brand-logo-wrap">
+          <img src="images/logo.png" alt="Tessa Wolvekamp Floral Monogram" class="brand-logo-img">
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Tessa Wolvekamp</span>
+          <span class="brand-title">CMD • Avans</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="about.html" class="nav-link">About me</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="wasd-mode-toggle" class="btn btn-mode-toggle btn-sm" aria-label="Toggle navigation mode between mouse and WASD keys" aria-pressed="false" title="Switch between Mouse and WASD keyboard navigation">
+          <span class="mode-icon">🖱️</span>
+          <span class="mode-text">Mouse Mode</span>
+          <span class="mode-hint-tag">Try WASD ✦</span>
+        </button>
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="section section-hero hero-floral-canvas-wrap">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badge-group" style="display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap; margin-bottom: 1.2rem;">
+            <div class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              Avans Hogeschool CMD Year 2
+            </div>
+            <button type="button" class="hero-wasd-discover-chip" aria-label="Try WASD keyboard navigation">
+              <span>✦</span> <span>Navigate with <strong>Mouse</strong> or <strong>WASD</strong></span> <span class="chip-action">Try WASD ↗</span>
+            </button>
+            <div class="hero-slogan-wrapper">
+              <span class="hero-slogan-flourish" aria-hidden="true">✦</span>
+              <span class="hero-slogan-text">“More than meets the eye.”</span>
+              <span class="hero-slogan-flourish" aria-hidden="true">✦</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title">
+            Immersive storytelling through <span class="highlight-pink">brand worlds</span>, playable games & living spaces.
+          </h1>
+          <p class="hero-lead">
+            I’m Tessa Wolvekamp, an 18-year-old Communication & Multimedia Design student at Avans University of Applied Sciences. I craft experiences that make people think, feel, or discover something unexpected beneath the surface.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#featured-projects" class="btn btn-1 btn-lg">
+              Explore Featured Work
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </a>
+            <a href="about.html" class="btn btn-2-secondary btn-lg">About Me</a>
+          </div>
+        </div>
+
+        <!-- HERO RIGHT SIDE: AUTO-CYCLING PROJECT SHOWCASE CARD -->
+        <div class="hero-visual reveal">
+          <div class="hero-showcase-card flourish-frame hero-showcase-container" role="region" aria-label="Featured Projects Showcase Carousel">
+            <!-- Corner Flourishes directly from Design System -->
+            <img src="images/vectors/corner-left.svg" alt="" class="flourish-corner flourish-corner-tl" aria-hidden="true">
+            <img src="images/vectors/corner-right.svg" alt="" class="flourish-corner flourish-corner-tr" aria-hidden="true">
+            <img src="images/vectors/corner-left.svg" alt="" class="flourish-corner flourish-corner-bl" aria-hidden="true">
+            <img src="images/vectors/corner-right.svg" alt="" class="flourish-corner flourish-corner-br" aria-hidden="true">
+
+            <div class="hero-showcase-inner">
+              <!-- Slide 1: Tessora -->
+              <div class="hero-showcase-slide active" data-project-url="project-tessora.html" aria-label="Tessora Can Packaging Design">
+                <img src="images/project 1 - can design/blikje design.jpg" alt="Tessora 3D Can Packaging Design" class="hero-showcase-img">
+              </div>
+
+              <!-- Slide 2: Lucky Bird -->
+              <div class="hero-showcase-slide" data-project-url="project-lucky-bird.html" aria-label="Lucky Bird Arcade Gameplay">
+                <img src="images/project 2 - lucky bird/Screenshot 2026-08-31 114458.png" alt="Lucky Bird Arcade Gameplay Screenshot" class="hero-showcase-img">
+              </div>
+
+              <!-- Slide 3: Geforceerd Groen -->
+              <div class="hero-showcase-slide" data-project-url="project-geforceerd-groen.html" aria-label="Geforceerd Groen Living Trellis">
+                <img src="images/project 3 - geforceerd groen/geforceerd groen.png" alt="Geforceerd Groen Urban Trellis Intervention" class="hero-showcase-img">
+              </div>
+            </div>
+
+            <!-- Slide indicators / progress dots -->
+            <div class="showcase-dots-bar" aria-label="Showcase Navigation Dots">
+              <button class="showcase-dot active" aria-label="View Tessora slide" aria-current="true"></button>
+              <button class="showcase-dot" aria-label="View Lucky Bird slide"></button>
+              <button class="showcase-dot" aria-label="View Geforceerd Groen slide"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="divider-ornament reveal" aria-hidden="true">
+      <img src="images/vectors/divider-line.svg" alt="" loading="lazy">
+    </div>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section" id="featured-projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Curated Portfolio</span>
+          <h2 class="section-title">Featured Design Work</h2>
+          <p class="section-description">
+            Three distinctive projects exploring sensory branding, empathetic retro game mechanics, and biophilic public interventions.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: TESSORA (Hero Card) -->
+          <article class="project-card project-card-hero reveal">
+            <div class="project-media-wrap">
+              <span class="project-media-badge">Packaging & Advertising</span>
+              <img src="images/project 1 - can design/blikje design.jpg" alt="Tessora Cherry Soda 3D Can Packaging Design" class="project-img" loading="lazy">
+            </div>
+            <div class="project-info">
+              <div>
+                <div class="project-meta">
+                  <span class="project-tag">Brand Identity</span>
+                  <span class="project-tag">• Avans CMD</span>
+                </div>
+                <h3 class="project-title">Tessora — Taste The Temptation</h3>
+                <p class="project-summary">
+                  A multi-sensory beverage brand built on anticipation. Features a custom 3D aluminum can wrap with dynamic fruit splash dynamics, paired with an elegant outdoor billboard advertising campaign.
+                </p>
+              </div>
+              <div class="project-footer">
+                <span class="project-category">Packaging & Billboard Campaign</span>
+                <a href="project-tessora.html" class="btn btn-1 btn-sm">
+                  View Case Study
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: LUCKY BIRD -->
+          <article class="project-card project-card-half reveal">
+            <div class="project-media-wrap">
+              <span class="project-media-badge">Game Design & Animation</span>
+              <img src="images/project 2 - lucky bird/Screenshot 2026-08-31 114458.png" alt="Lucky Bird Arcade Gameplay Screenshot" class="project-img" loading="lazy">
+            </div>
+            <div class="project-info">
+              <div>
+                <div class="project-meta">
+                  <span class="project-tag">Pixel Art</span>
+                  <span class="project-tag">• Micro-Interactions</span>
+                </div>
+                <h3 class="project-title">Lucky Bird — 2D Arcade Game</h3>
+                <p class="project-summary">
+                  Fostering empathy for urban wildlife through play. A charming arcade game featuring a custom pigeon species, frame-by-frame sprite flight animations, and obstacle evasion.
+                </p>
+              </div>
+              <div class="project-footer">
+                <span class="project-category">Character Design & Animation</span>
+                <a href="project-lucky-bird.html" class="btn btn-2 btn-sm">
+                  View Case Study
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: GEFORCEERD GROEN -->
+          <article class="project-card project-card-half reveal">
+            <div class="project-media-wrap">
+              <span class="project-media-badge">Spatial & Civic Concept</span>
+              <img src="images/project 3 - geforceerd groen/geforceerd groen.png" alt="Geforceerd Groen Urban Green Trellis in Tilburg" class="project-img" loading="lazy">
+            </div>
+            <div class="project-info">
+              <div>
+                <div class="project-meta">
+                  <span class="project-tag">Environmental Design</span>
+                  <span class="project-tag">• Urban Heat Island</span>
+                </div>
+                <h3 class="project-title">Geforceerd Groen — Urban Intervention</h3>
+                <p class="project-summary">
+                  A modular living green archway concept designed for Dutch shopping streets to mitigate heat stress, create biophilic shade, and foster communal urban relaxation.
+                </p>
+              </div>
+              <div class="project-footer">
+                <span class="project-category">Spatial Concept & Photomontage</span>
+                <a href="project-geforceerd-groen.html" class="btn btn-1 btn-sm">
+                  View Case Study
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;" class="reveal">
+          <a href="projects.html" class="btn btn-2-secondary btn-lg">
+            View All Projects & Design Process
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER -->
+    <div class="divider-ornament reveal" aria-hidden="true">
+      <img src="images/vectors/divider-line.svg" alt="" loading="lazy">
+    </div>
+
+    <!-- SHORT INTRO: ABOUT ME TEASER -->
+    <section class="section about-teaser">
+      <div class="container about-teaser-grid">
+        <div class="about-portrait-wrap flourish-frame reveal">
+          <img src="images/vectors/corner-left.svg" alt="" class="flourish-corner flourish-corner-tl" aria-hidden="true">
+          <img src="images/vectors/corner-right.svg" alt="" class="flourish-corner flourish-corner-tr" aria-hidden="true">
+          <img src="images/vectors/corner-left.svg" alt="" class="flourish-corner flourish-corner-bl" aria-hidden="true">
+          <img src="images/vectors/corner-right.svg" alt="" class="flourish-corner flourish-corner-br" aria-hidden="true">
+          <img src="images/me.png" alt="Tessa Wolvekamp, CMD student" class="about-portrait-img" loading="lazy">
+        </div>
+
+        <div class="about-teaser-content reveal">
+          <span class="section-tag tag-pink">“More than meets the eye.”</span>
+          <h2 class="section-title">About me</h2>
+          <p>
+            I am an 18-year-old Communication & Multimedia Design student at Avans University of Applied Sciences in the Netherlands.
+          </p>
+          <p>
+            To me, design is about <strong>immersive storytelling</strong>: creating tactile packaging, playful arcade games, or biophilic urban spaces that invite people into a narrative and encourage them to discover deeper layers of meaning.
+          </p>
+          <div style="margin-top: 2rem;">
+            <a href="about.html" class="btn btn-1">
+              Read My Full Story
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESIGN DISCIPLINES / SKILLS SECTION -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Core Disciplines</span>
+          <h2 class="section-title">Design Capabilities</h2>
+          <p class="section-description">
+            Bridging aesthetic sensitivity and interactive media to shape meaningful narratives.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+              </svg>
+            </div>
+            <h4 class="skill-title">Brand & Packaging</h4>
+            <p class="skill-desc">
+              Building visual identity systems, typography hierarchies, print collateral, and 3D product mock-ups with strong shelf presence and tactile appeal.
+            </p>
+          </div>
+
+          <div class="skill-card skill-pink reveal">
+            <div class="skill-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h4 class="skill-title">Game Design & Pixel Art</h4>
+            <p class="skill-desc">
+              Designing empathetic characters, frame-by-frame flight and jump animations, obstacle physics, and rewarding micro-interactions.
+            </p>
+          </div>
+
+          <div class="skill-card reveal">
+            <div class="skill-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h4 class="skill-title">Spatial & Civic Concepts</h4>
+            <p class="skill-desc">
+              Addressing environmental challenges such as urban heat stress through biophilic design interventions, research, and persuasive visualizations.
+            </p>
+          </div>
+
+          <div class="skill-card skill-pink reveal">
+            <div class="skill-icon">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+            </div>
+            <h4 class="skill-title">Interactive Prototyping</h4>
+            <p class="skill-desc">
+              Bringing design systems to life with accessible, responsive layouts using clean HTML, modular CSS variables, and fluid JavaScript logic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / CTA SECTION -->
+    <section class="section" style="padding-bottom: 6rem;">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <div class="cta-banner-content">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Interested in collaborating or discussing an internship?</h2>
+            <p style="margin-bottom: 2rem;">
+              I am open for 2026/2027 design internships, creative studio collaborations, and exciting student project discussions.
+            </p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+              <a href="contact.html" class="btn btn-1 btn-lg">
+                Send a Message
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+              <a href="projects.html" class="btn btn-2-secondary btn-lg">
+                View All Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link">
+            <div class="brand-logo-wrap">
+              <img src="images/logo.png" alt="Tessa Wolvekamp Logo" class="brand-logo-img">
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">Tessa Wolvekamp</span>
+              <span class="brand-title">CMD • Avans Hogeschool</span>
+            </div>
+          </a>
+          <p>
+            Personal design portfolio of Tessa Wolvekamp. Second-year Communication & Multimedia Design student in the Netherlands.
+          </p>
+          <p style="font-style: italic; color: var(--color-primary-pink); font-size: 0.95rem; margin-top: 0.5rem;">
+            “More than meets the eye.”
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Featured Work</h4>
+          <ul class="footer-links">
+            <li><a href="project-tessora.html">Tessora Can & Campaign</a></li>
+            <li><a href="project-lucky-bird.html">Lucky Bird Arcade Game</a></li>
+            <li><a href="project-geforceerd-groen.html">Geforceerd Groen Intervention</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Tessa Wolvekamp • Built with custom Design System & Typography</span>
+        <button class="back-to-top" aria-label="Back to top of page">
+          Back to Top ↑
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  
+  <!-- PLAYABLE STORY JOURNEY MODAL ("The Discovery Lens") -->
+  
+
+
+  <script src="js/main.js"></script>
+
+  <div id="custom-cursor" class="custom-cursor" aria-hidden="true"></div>
+  <div id="wasd-hud" class="wasd-hud" aria-hidden="true">
+    <span><strong>W A S D</strong> to Move</span> • <span><strong>SPACE</strong> to Click</span> • <span><strong>[ESC]</strong> for Mouse</span>
+  </div>
+
+</body>
+</html>
